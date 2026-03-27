@@ -109,7 +109,7 @@ jobs:
   publish_snapshot:
     name: "Publish snapshot"
     needs: test-OpenJDK
-    if: github.event_name == 'push' && github.repository == 'google/google-java-format' && github.ref == 'refs/heads/master'
+    if: github.event_name == 'push' && github.repository == 'kushmanmb-eth/google-java-format' && github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
       - name: "Check out repository"
