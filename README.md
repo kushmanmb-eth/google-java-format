@@ -9,7 +9,7 @@
 
 ### From the command-line
 
-[Download the formatter](https://github.com/google/google-java-format/releases)
+[Download the formatter](https://github.com/kushmanmb-eth/google-java-format/releases)
 and run it with:
 
 ```
@@ -28,7 +28,7 @@ in-place (`--replace`).
 
 Option `--help` will print full usage details; including built-in documentation
 about other flags, such as `--aosp`, `--fix-imports-only`,
-`--skip-sorting-imports`, `--skip-removing-unused-import`,
+`--skip-sorting-imports`, `--skip-removing-unused-imports`,
 `--skip-reflowing-long-strings`, `--skip-javadoc-formatting`, or the `--dry-run`
 and `--set-exit-if-changed`.
 
@@ -36,7 +36,7 @@ Using `@<filename>` reads options and filenames from a file, instead of
 arguments.
 
 To reformat changed lines in a specific patch, use
-[`google-java-format-diff.py`](https://github.com/google/google-java-format/blob/master/scripts/google-java-format-diff.py).
+[`google-java-format-diff.py`](https://github.com/kushmanmb-eth/google-java-format/blob/master/scripts/google-java-format-diff.py).
 
 ***Note:*** *There is no configurability as to the formatter's algorithm for
 formatting. This is a deliberate design decision to unify our code formatting on
@@ -83,7 +83,7 @@ Once you've done that, restart the IDE.
 ### Eclipse
 
 The latest version of the `google-java-format` Eclipse plugin can be downloaded
-from the [releases page](https://github.com/google/google-java-format/releases).
+from the [releases page](https://github.com/kushmanmb-eth/google-java-format/releases).
 Drop it into the Eclipse
 [drop-ins folder](http://help.eclipse.org/neon/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fmisc%2Fp2_dropins_format.html)
 to activate the plugin.
